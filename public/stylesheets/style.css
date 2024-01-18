@@ -1,0 +1,116 @@
+#main {
+  padding: 100px;
+  height: 100vh;
+  width: 100%;
+
+}
+
+.main {
+  display: flex;
+  padding: 15px;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  border-right: 2px solid gray;
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  padding: 10px;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+form input {
+  width: 50%;
+  padding: 14px;
+}
+
+form input:nth-child(3) {
+  width: 20%;
+  padding: 10px 20px;
+}
+
+.content {
+  padding: 10px;
+  height: 90%;
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+
+
+}
+
+.content::-webkit-scrollbar {
+  display: none;
+}
+
+.innercont {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  overflow-y: scroll;
+
+
+}
+
+.innercont::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+  float: right;
+  padding-top: 0px;
+
+}
+
+.innercontent {
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  padding-right: 10px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+h3 {
+  font-size: 20px;
+  color: rgb(49, 255, 3);
+  text-transform: uppercase;
+}
+
+p {
+  color: rgb(92, 148, 225);
+}
+
+.btnn {
+  height: 100%;
+  width: 8%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.second {
+  color: blue;
+
+}
